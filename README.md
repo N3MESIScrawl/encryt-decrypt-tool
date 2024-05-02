@@ -1,6 +1,6 @@
 # File Encryption and Decryption Tool
 
-This Python project provides a  command-line interface to encrypt and decrypt text files using AES encryption. It utilizes the `cryptography` library for encryption and decryption operations.
+This Python project provides a command-line interface to encrypt and decrypt text files using AES encryption. It utilizes the `cryptography` library for encryption and decryption operations.
 
 ## Features
 
@@ -25,30 +25,31 @@ This Python project provides a  command-line interface to encrypt and decrypt te
 
 3. Install the required dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
 To use the file encryption and decryption tool, follow these steps:
 
-1. Run the script:
+1. navigate to the tool folder and find the file encrypt.py :
+    ```bash
+    cd <folderlocation>
+    ```
+2. Run the script:
 
     ```bash
     python file_encrypt_decrypt.py
     ```
 
-2. Select the operation:
+3. Select the operation:
     - **Encryption:** Encrypt a text file.
     - **Decryption:** Decrypt an encrypted text file.
     - **Quit:** Exit the program.
 
-3. Enter the required information:
+4. Enter the required information:
     - For encryption: provide the path of the file to encrypt, the location to save the encrypted file, and the encryption key.
     - For decryption: provide the path of the encrypted file, the location to save the decrypted file, and the decryption key.
 
-4. Follow the prompts to complete the encryption or decryption process.
+5. Follow the prompts to complete the encryption or decryption process.
 
 ## Contributing
 
